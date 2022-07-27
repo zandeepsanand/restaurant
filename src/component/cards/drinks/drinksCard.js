@@ -11,10 +11,12 @@ export default function DrinksCard() {
             <div className="card mt-4 shadow">
               <img
                 class="card-img-top pokkam p-0"
-                src="images/drinks1.jpg"
+                src="/images/drinks1.jpg"
                 alt="Card image cap"
               />
+              
               <div class="card-body p-0">
+              
                 <div className="beverage-button button-colors1  ">
                   23 <div className="currency">S.R</div>
                 </div>

@@ -18,7 +18,7 @@ import Footer from './component/footer/footer';
 function App() {
   return (
     <div className="App">
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
         <NavigationComponent/>
       <HeaderRestaurant/>
       
