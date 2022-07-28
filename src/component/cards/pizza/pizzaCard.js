@@ -10,7 +10,7 @@ const client = axios.create({
 });
 
 export default function PizzaCard() {
-  const [pizzas, setPizza] = useState("");
+  const [pizzas, setPizza] = useState([]);
 
   const fetchFoodItem = async () => {
     const data = await fetch(`http://qrorder.co.in/Jarjeer/public/api/alldata`);
