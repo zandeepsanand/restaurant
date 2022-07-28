@@ -60,7 +60,7 @@ export default function AppetizerCard() {
             <div class="card-body ">
               <div className="row">
                 <div className="col-3 ">
-                  <img className="card-image" src="images/1.jpg" alt="pic" />
+                  <img className="card-image p-0 m-0" src="images/1.jpg" alt="pic" />
                 </div>
                 <div className="col-9 ">
                   <div className="prize-label button-colors  ">

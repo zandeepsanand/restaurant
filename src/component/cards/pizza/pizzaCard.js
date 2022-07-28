@@ -5,6 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Card from "react-bootstrap/Card";
+const client = axios.create({
+  baseURL: "http://qrorder.co.in/Jarjeer/public/api/alldata" 
+});
 
 export default function PizzaCard() {
   const [pizzas, setPizza] = useState("");
@@ -79,7 +82,7 @@ export default function PizzaCard() {
                               {pizza.subcategory.map((item) => {
                                 return (
                                   <h5
-                                    class="card-title font-size card-heading text-left"
+                                    class="card-title font-size card-heading text-left pl-1"
                                     key={item.pro_id}
                                   >
                                     {item.pro_english}

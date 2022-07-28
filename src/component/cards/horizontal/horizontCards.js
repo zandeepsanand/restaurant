@@ -10,7 +10,7 @@ export default function HorizontCards() {
   const [cards, setCard] = useState("");
 
   const fetchCardItem = async () => {
-    const data = await fetch(`http://qrorder.co.in/Jarjeer/public/api/alldata`);
+    const data = await fetch(``);
     // console.log(data);
 
     const jsonData = await data.json();
