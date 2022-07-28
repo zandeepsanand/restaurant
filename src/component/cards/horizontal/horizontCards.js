@@ -33,7 +33,7 @@ export default function HorizontCards() {
               return (
                 <>
                   <div class="col-4 col-lg-2 col-sm-2 col-md-2">
-                    <p class="card-text p-1">{card.cat_english}</p>
+                    <p class="card-text p-1" key={card.cat_id}>{card.cat_english}</p>
                     <a class="link" href="#list-item-1">
                     {/* {card.subcategory.map((item) => {
                                 return (

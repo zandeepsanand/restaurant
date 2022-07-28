@@ -13,7 +13,7 @@ export default function PizzaCard() {
   const [pizzas, setPizza] = useState([]);
 
   const fetchFoodItem = async () => {
-    const data = await fetch(`http://qrorder.co.in/Jarjeer/public/api/alldata`);
+    const data = await fetch(`http://qrorder.co.in/Jarjeer/public/api/alldata` );
     // console.log(data);
 
     const jsonData = await data.json();
@@ -46,7 +46,7 @@ export default function PizzaCard() {
         ? pizzas.map((pizza, index) => {
             return (
               <div className="container1 pt-3 pb-3">
-                <Card.Title className="p-3 heading-color">{pizza.cat_english}</Card.Title>
+                <Card.Title className="p-3 heading-color" key={pizza.cat_id}>{pizza.cat_english}</Card.Title>
                 <div>
                   <div class="row m-3 pt-4 pb-4" id="list-item-3">
                     <div
@@ -69,10 +69,10 @@ export default function PizzaCard() {
                                 );
                               })}
                             </div>
-                            <div className="col-9 ">
+                            <div className="col-9 " >
                               {pizza.subcategory.map((item) => {
                                 return (
-                                  <div className="prize-label button-colors  ">
+                                  <div className="prize-label button-colors  " key={item.pro_id}>
                                     {item.pro_price}
                                     <div className="currency">S.R</div>
                                   </div>
