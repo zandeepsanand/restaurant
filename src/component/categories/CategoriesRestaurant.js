@@ -6,7 +6,9 @@ import HorizontCards from "../cards/horizontal/horizontCards";
 import AppetizerCard from "../cards/appetizers card/appetizerCard";
 import NavigationComponent from "../navigation/navigationComponent";
 
+
 export default function CategoriesRestaurant() {
+  
   return (
     <div className="container1">
     <div className="d-flex justify-content-center ">

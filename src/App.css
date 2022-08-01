@@ -189,7 +189,8 @@ color:
   background-color: #f1f1f1;
 
 }
-.modal-image{
+
+/* .modal-image{
   height: auto;
     width: 100%;
     -o-object-fit: cover;
@@ -257,36 +258,10 @@ color:
   transition-timing-function: cubic-bezier(.4,0,.2,1);
   font-size: 13px;
 
-}
-.button-block{
-  display: flex;
-  padding: 0 0 30px 20px;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: auto;
-  right: 0;
-  background: transparent;
-  width: auto;
-  justify-content: flex-end;
-  z-index: 8;
-}
-.back-button{
-  position: absolute;
-  background: rgba(255, 255, 255, 0.75);
-  margin: 0px;
-  width: 40px;
-  border-radius: 100px;
-  left: 10px;
-  right: auto;
-  z-index: 1;
-  height: 40px !important;
-  min-width: 40px !important;
-  padding: 0px !important;
-  opacity: 0.8;
-}
+} */
+
 .scroll{
-  max-height: 300px;
+  max-height: 400px;
   overflow-y: auto;
 }
 .card-details1{
@@ -348,6 +323,33 @@ color:
   position: relative;
   transition: inherit;
   transition-property: opacity;
+}
+.footer-color{
+  background-color: rgb(83, 94, 121) !important;
+    caret-color: rgb(83, 94, 121) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.footer1{
+  max-width: 680px;
+  margin: 0 auto; 
+}
+.content-footer{
+  align-items: center;
+    color: inherit;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: inherit;
+    line-height: normal;
+    position: relative;
+    transition: inherit;
+    transition-property: opacity;
+    height: 45px;
+    max-width: 680px;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    font-family: "Avenir Heavy";
+    border-radius: 20px;
 }
 .footer-color{
   background-color: rgb(83, 94, 121) !important;
